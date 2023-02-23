@@ -46,4 +46,63 @@ body{
       background-color: #f1f1f1;
     }
   
-  
+    /* Styles pour les sections */
+
+section {
+    padding: 50px;
+    }
+    
+    #description {
+    background-color: #f2f2f2;
+    }
+    
+    #avantages ul {
+    margin-top: 20px;
+    }
+    
+    /* Styles pour le formulaire */
+    
+    form {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    
+    input[type="submit"] {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #444;
+    }
+    
+    /* Styles pour le footer */
+    
+    footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
