@@ -1,0 +1,118 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+  background-color: #f1f1f1;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .banner {
+  width: 100%;
+  height: 60vh;
+  background-image: url('../assets/img/scène.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+main .banner::before {
+  content: "";
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+main .banner div {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  width: 65vw;
+  margin: 15vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .banner div h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+main .banner div p {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+main .banner div a {
+  padding: 1em 2em;
+  background-color: #f9c330;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+main .banner div a:hover {
+  box-shadow: inset 0 0px 20px rgba(0, 0, 0, .4);
+}
