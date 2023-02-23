@@ -1,4 +1,4 @@
-# Branch Dev
+# Branch Emailing
 
 ## Setup de votre branch sur ce repo
 ---
