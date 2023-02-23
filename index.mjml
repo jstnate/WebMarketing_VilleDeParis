@@ -1,0 +1,119 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            .button {
+                background-color: #f9c330;
+            }
+            .button:hover {
+                background-color: #232B36;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="white">
+        <mj-section>
+            <mj-column vertical-align="middle" width="40%">
+                <mj-image align="right" src="logo-paris.jpeg" width="90px" />
+            </mj-column>
+            <mj-column vertical-align="middle" width="10%">
+                <mj-text align="center" font-size="20px">
+                    <h1>|</h1>
+                </mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle" width="40%" padding-left="10px">
+                <mj-image src="logo-vita.png" align="left" width="50px">
+                </mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section 
+            background-url="banner-image.jpg" 
+            background-size="cover"
+            background-repeat="no-repeat"
+            css-class="contrast"
+        >
+            <mj-column width="90%">
+                <mj-text 
+                    align="center"
+                    font-size="32px"
+                    font-weight="bold"
+                    color="white"
+                    padding-top="100px"
+                    padding-bottom="100px"
+                >
+                    Rejoignez le monde de l'e-sport et faites rayonner la France !
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-text
+                    align="left"
+                    font-size="16px"
+                    line-height="25px"
+                >
+                    Bonjour {{ name }},
+                </mj-text>
+
+                <mj-text
+                    align="left"
+                    font-size="16px"
+                    line-height="25px"
+                >
+                    On a une super nouvelle pour toi ! <span style="color: #232B36; font-weight: bold;">La Ville de Paris</span>, en partenariat avec l'équipe e-sport <span style="color: #f9c330; font-weight: bold;">Vitality</span>, a créé une association e-sport réservée aux étudiants. C'est l'occasion rêvée de plonger dans le monde fascinant de l'e-sport et de bénéficier du meilleur matériel et d'un entraînement de qualité.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-button width="400px" font-size="16px" background-color="white" line-height="25px" >
+                    <a class="button" href="{{ link }}" style="color: white; text-decoration: none; padding: 15px 50px; font-size: 16px; font-weight:bold; border-radius: 5px;">Nous rejoindre</a>
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-text
+                    align="left"
+                    font-size="16px"
+                    line-height="25px"
+                >
+                L'e-sport, c'est plus qu'un simple jeu. C'est l'opportunité d'apprendre de nouvelles compétences, de travailler en équipe et de s'amuser. Rejoindre notre association, c'est l'occasion de rencontrer d'autres étudiants qui partagent ta passion, de participer à des compétitions et de bénéficier de formations exclusives.
+                </mj-text>
+
+                <mj-text
+                    align="left"
+                    font-size="16px"
+                    line-height="25px"
+                >
+                    On sait que la vie d'étudiant peut être stressante, c'est pourquoi on veut te donner l'occasion de t'évader de la routine et de te détendre en t'adonnant à ta passion. On te promet un environnement convivial où tu pourras te sentir en confiance.
+                </mj-text>
+
+                <mj-text
+                    align="left"
+                    font-size="16px"
+                    line-height="25px"
+                >
+                    On espère que tu vas nous rejoindre et vivre une expérience passionnante avec nous.
+                </mj-text>
+
+                <mj-text
+                    align="left"
+                    font-size="16px"
+                    line-height="25px"
+                >
+                    A très vite !
+                </mj-text>
+
+                <mj-text
+                    align="left"
+                    font-size="16px"
+                    line-height="25px"
+                >
+                    La ville de Paris et Vitality
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
