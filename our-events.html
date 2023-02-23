@@ -31,7 +31,7 @@
             Paris !
           </h1>
           <p>Le 15/04/2023 de 18h à 22h</p>
-          <a href="">Réservez vos places</a>
+          <a href="#cta">Réservez vos places</a>
         </div>
       </section>
       <section class="main-content">
@@ -51,38 +51,47 @@
           web. Vous recevrez une confirmation de votre inscription par email.
         </p>
 
-        <div>
+        <div id="cta">
+          <div class="title">
+            <p>
+              <span>Inscrivez-vous</span>
+              <br>
+              Inscrivez-vous pour pouvoir participer à cet événement
+            </p>
+          </div>
           <form action="">
-            <div class="label">
+          
+            <div>
               <label for="">Civilité</label>
-              <label for="name">Nom</label>
-              <label for="firstname">Prénom</label>
-              <label for="email">Email</label>
-              <label for="age">Age</label>
-            </div>
-
-            <div class="input">
+              
               <div class="civil-input">
-                <label for="monsieur">Mr.</label>
-                <input
-                  type="radio"
-                  name="civil"
-                  value="monsieur"
-                  id="monsieur"
-                />
-
+                <label for="monsieur">Mr</label>
+                <input type="radio" name="civil" value="monsieur" id="monsieur" />
+                
                 <label for="madame">Mme</label>
                 <input type="radio" name="civil" value="madame" id="madame" />
-
+  
                 <label for="autre">Autre</label>
                 <input type="radio" name="civil" value="autre" id="autre" />
               </div>
-
-              <input type="text" name="name" id="name" />
-              <input type="text" name="firstname" id="firstname" />
-              <input type="email" name="email" id="email" />
-              <input type="number" name="age" id="age" />
             </div>
+            
+            <div>
+              <label for="name">Nom</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            
+            <div>
+              <label for="firstname">Prénom</label>
+              <input type="text" name="firstname" id="firstname" />
+            </div>
+            
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+
+            <button>S'inscrire</button>
           </form>
         </div>
         <p>
