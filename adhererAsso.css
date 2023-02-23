@@ -52,6 +52,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    
   }
   
   .container-left {
@@ -61,7 +62,6 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    background:rgba(0, 0, 0, 0.1);
   }
 
   .container-left h1 {
@@ -101,6 +101,8 @@ nav {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    background:rgba(0, 0, 0, 0.1);
+
   }
 
   .container-right h2{
