@@ -1,0 +1,103 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            .button {
+                background-color: #f9c330;
+            }
+            .button:hover {
+                background-color: #232B36;
+            }
+            .shadow{
+                text-shadow:"1px 1px black"
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="white">
+        <mj-section>
+
+            <mj-column vertical-align="middle">
+                <mj-image align="right" src="logo-paris.jpeg" width="90px" />
+            </mj-column>
+
+            <mj-column vertical-align="middle" width="10%">
+
+                <mj-text align="center" font-size="20px">
+                    <h1>|</h1>
+                </mj-text>
+
+            </mj-column>
+
+            <mj-column vertical-align="middle" width="40%" padding-left="10px">
+                <mj-image src="logo-vita.png" align="left" width="50px"></mj-image>
+            </mj-column>
+
+        </mj-section>
+        <mj-section background-url="scène.jpeg" background-size="cover">
+            
+            <mj-column>
+
+                <mj-text align="center" font-size="30px" font-weight="bold" color="white" padding-top="50px" padding-bottom="50px">
+                    <p class="shadow">Assistez au premier tournoi esport associant Paris / Vitality: Un événement incontournable pour tous les fans d'esport </p>
+                </mj-text>
+
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section>
+
+            <mj-column vertical-align="middle"> 
+
+                <mj-text font-size="16px" line-height="25px">
+                    Bonjour {{ name }},
+                </mj-text>
+
+                <mj-text font-size="16px" line-height="25px">
+                    Ne manques pas le premier tournoi esport de la ville de Paris en collaboration avec Vitality ! Les meilleurs joueurs de la scène esport s'affronteront pour décrocher le titre de champion dans une ambiance électrique et un décor spectaculaire.
+                </mj-text>
+
+                <mj-text font-size="16px" line-height="25px">
+                    Tu peux des aujourd'hui récuperer tes places en cliquant sur le bouton suivant !
+                </mj-text>
+                
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section>
+
+            <mj-column vertical-align="middle">
+
+                <mj-button width="300px" font-size="16px" background-color="white">
+                    <a class="button" href="#" style="text-decoration: none; padding: 15px ; color: white; padding-right: 50px ; padding-left: 50px; font-size: 16px; font-weight:bold; border-radius: 8px;">En savoir plus</a>
+                </mj-button>
+
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section>
+
+            <mj-column vertical-align="middle">
+
+                <mj-text font-size="16px" line-height="25px">
+                Assistes en direct aux matchs de tes équipes préférées, découvres de nouveaux talents, rencontres tes joueurs favoris et des fans venus du monde entier. Viens vivre une expérience unique au cœur de l'esport.
+                </mj-text>
+
+                <mj-text font-size="16px" line-height="25px">
+                    On espère que tu vas nous rejoindre et vivre une expérience passionnante avec nous.
+                </mj-text>
+
+                <mj-text font-size="16px" line-height="25px">
+                    A très vite !
+                </mj-text>
+
+                <mj-text font-size="16px" line-height="25px">
+                    La ville de Paris et Vitality
+                </mj-text>
+
+            </mj-column>
+
+        </mj-section>
+    </mj-body>
+</mjml>
