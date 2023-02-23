@@ -1,13 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="adhererAsso.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="adhererAsso.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#"><img src="assets/img/logoParis.png" alt="logo" /></a>
+        </div>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="adhererAsso.html">Adhérer à l'association</a></li>
+          <li><a href="#">Nos évènements</a></li>
+          <li><a href="#">Parrainer</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container">
+        <div class="container__left">
+          <h1>Pourquoi nous rejoindre?</h1>
+          <p>
+            Adhérer à cette association de e-sport lancée par la ville de Paris
+            est bien plus qu'une simple inscription : c'est l'opportunité de
+            vivre pleinement ta passion et de la partager avec d'autres
+            personnes partageant les mêmes centres d'intérêt que toi. En
+            rejoignant notre communauté, tu auras l'occasion de rencontrer des
+            joueurs compétitifs de haut niveau, mais également des débutants qui
+            cherchent à s'améliorer et à progresser dans un environnement
+            stimulant. Tu pourras bénéficier d'un encadrement de qualité grâce à
+            des entraîneurs expérimentés et passionnés, mais aussi participer à
+            des événements exclusifs, des tournois, des séances de coaching
+            individuelles et bien plus encore. Avec nous, tu ne te contenteras
+            pas seulement de jouer, tu vivras une expérience humaine unique et
+            enrichissante, où la convivialité, le partage et la solidarité sont
+            des valeurs fondamentales.
+          </p>
+          <span>
+            Alors n'hésite plus, rejoins-nous dès maintenant et fais partie
+            d'une communauté passionnée et dynamique qui t'accompagnera dans
+            toutes tes aventures de e-sport !
+          </span>
+        </div>
+        <div class="container_right">
+            <h2>Formulaire d'adhésion</h2>
+          <form method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Nom" required />
+
+            <label for="prenom">Prénom :</label>
+            <input
+              type="text"
+              id="prenom"
+              name="prenom"
+              placeholder="Prénom"
+              required
+            />
+
+            <label for="age">Âge :</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              placeholder="Age"
+              required
+            />
+
+            <label for="email">E-mail :</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+
+            <label for="telephone">Téléphone :</label>
+            <input
+              type="tel"
+              id="telephone"
+              name="telephone"
+              placeholder="Numéro de téléphone"
+              required
+            />
+
+            <label for="adresse">Adresse :</label>
+            <input
+              type="text"
+              id="adresse"
+              name="adresse"
+              placeholder="Ville"
+              required
+            />
+            <input
+              type="text"
+              id="adresse"
+              name="adresse"
+              placeholder="Rue"
+              required
+            />
+            <input
+              type="number"
+              id="adresse"
+              name="adresse"
+              placeholder="Code postal"
+              required
+            />
+
+            <input type="submit" value="Envoyer" />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
