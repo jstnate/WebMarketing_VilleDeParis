@@ -56,7 +56,7 @@ main {
 main .banner {
   width: 100%;
   height: 60vh;
-  background-image: url('../assets/img/scène.jpeg');
+  background-image: url('../assets/img/scene.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
